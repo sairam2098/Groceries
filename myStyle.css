@@ -1,0 +1,374 @@
+body {
+    background-color: aliceblue;
+}
+
+ul {
+    text-align: left;
+}
+
+.name h1 {
+    background-image: url('Images/home.jpg');
+    background-repeat: repeat-x;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 18px;
+}
+
+.navbar li a:hover {
+    background-color: lightskyblue;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.active {
+    background-color: green;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: purple;
+}
+
+.bodypage {
+    display: flex;
+}
+
+
+.bodypagechild-side {
+    flex: 30%;
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.bodypagechild-side p {
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.bodypagechild-side h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bodypagechild-main {
+    flex: 70%;
+    display: block;
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.bodypagechild-fresh,
+.bodypagechild-FP,
+.bodypagechild-breakfast,
+.bodypagechild-Frozen,
+.bodypagechild-fruit,
+.bodypagechild-pantry,
+.bodypagechild-precut,
+.bodypagechild-flowers,
+.bodypagechild-bf,
+.bodypagechild-dessert,
+.bodypagechild-pizza,
+.bodypagechild-snacks,
+.bodypagechild-spread,
+.bodypagechild-veg,
+.bodypagechild-goods,
+.bodypagechild-cereal,
+.bodypagechild-pan,
+.bodypagechild-bread {
+    flex: 70%;
+    display: none;
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 12%;
+    background: #333;
+    text-align: center;
+}
+
+.footer p {
+    color: green;
+}
+
+.tomatoes,
+.potatoes,
+.cilantro,
+.cart4,
+.cart5,
+.cart6,
+.cart7,
+.cart8,
+.cart9,
+.cart10,
+.cart11,
+.total,
+.onion,
+.garlic,
+.pizzarolls,
+.macandcheese,
+.dumplings,
+.honey,
+.fruitloops,
+.eggos,
+.flour,
+.yeast,
+.sugar,
+.lays,
+.doritos,
+.pop,
+.Snickers,
+.mm,
+.reeses,
+.cro,
+.cup,
+.al,
+.freshprod,
+.home1,
+.home2,
+.home3 {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.t-image,
+.p-image,
+.c-image,
+.o-image,
+.g-image,
+.pz-image,
+.mac-image,
+.dum-image,
+.ho-image,
+.fl-image,
+.egg-image,
+.fo-image,
+.y-image,
+.su-image,
+.lay-image,
+.do-image,
+.pop-image,
+.sn-image,
+.mm-image,
+.re-image,
+.cro-image,
+.cup-image,
+.al-image,
+.frp-image {
+    flex: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.t-text,
+.snack0,
+.snack1,
+.snack2,
+.p-text,
+.c-text,
+.o-text,
+.g-text,
+.pz-text,
+.mac-text,
+.dum-text,
+.ho-text,
+.fl-text,
+.egg-text,
+.fo-text,
+.y-text,
+.su-text,
+.lay-text,
+.do-text,
+.pop-text,
+.sn-text,
+.mm-text,
+.re-text,
+.cro-text,
+.cup-text,
+.al-text,
+.frp-text {
+    flex: 25%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.sn-price {
+    flex: 20%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.sn-qua {
+    flex: 10%;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.sn-checkout {
+    flex: 25%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+.sn-cart {
+    flex: 20%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.cart-1{
+    flex: 15%;
+    float: left;
+    padding: 20px;
+    padding-left: 5px;
+}
+
+.cart-2{
+    flex: 15%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.cart-3 {
+    flex: 10%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.cart-4 {
+    flex: 10%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.cart-6 {
+    flex: 10%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.cart-5 {
+    flex: 10%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+.sn-sum {
+    flex: 20%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login {
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-right: 10%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: darkgrey;
+}
+
+td,
+th {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: left;
+    padding: 8px;
+}
+
+.frh-image,
+.fro-image,
+.brh-image {
+    flex: 33%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.bodypagechild-side p {
+    text-shadow: 2px 2px green;
+}
+
+#aboutmain {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 60px;
+}
+
+.bodypagechild-main p {
+    clear: left;
+}
+
+img.logo {
+    vertical-align: text-bottom;
+}
+
+.bodypagechild-side img {
+    opacity: 0.8;
+}
+
+.dumplings {
+    visibility: hidden;
+}
+
+#searchbar{ 
+    margin-left: 20px; 
+    padding:15px; 
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.totalCart {
+    display: flex;
+    padding-bottom: 10%;
+}
